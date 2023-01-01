@@ -1,0 +1,15 @@
+{
+    "name": "MyOpenAIApp",
+    "version": "1.0.0",
+    "description": "An Electron App Wrapper for Open AI API",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Connor",
+    "license": "ISC",
+    "dependencies": {
+      "electron": "latest",
+      "openai": "latest"
+    }
+  }

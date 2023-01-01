@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ava</title>
+        <style>
+            body {
+                font-family: sans-serif;
+                background-color: #0e0f12;
+            }
+            h1 {
+                font-size: 32px;
+                color: #ffffff;
+            }
+            p {
+                font-size: 16px;
+                color: #ffffff;
+            }
+            textarea {
+                width: 400px;
+                height: 70px;
+                font-size: 14px;
+                background-color: #0e0f12;
+                color: #ffffff;
+            }
+            .cursor {
+                animation: blink 1s infinite;
+            }
+            @keyframes blink {
+                50% {
+                    background-color: #1a1b20;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Ava</h1>
+            <p>The OpenAI wrapper for projects using Electron</p>
+        </div>
+        <div>
+          <textarea id="input" placeholder="Type your query here.." class="cursor"></textarea>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
